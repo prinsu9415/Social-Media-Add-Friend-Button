@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+
+.container{
+    display: flex;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+    position: absolute;
+ 
+   
+    
+
+}
+.plane{
+    margin-top: 4%;
+    margin-left: 36%;
+     padding: 30px;
+    display: 1;
+    width: 320px;
+    height: 500px;
+    background-color: rgb(243, 242, 234);
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+     gap: 0px;
+   
+ 
+}
+button:hover{
+    background-color: aquamarine;
+
+}
+
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: brown;
+    color: rgb(10, 5, 147);
+    box-sizing: border-box;
+}
+img{
+    border-radius: 10px;
+}
